@@ -21,7 +21,7 @@ else {
 
     if($_POST["login"] == "admin" && $_POST["password"] == "admin") {
 
-        echo "UDAŁO SIĘ ZALOGOWAĆ";
+        
         
         $_SESSION['login'] = $_POST['login'];
 

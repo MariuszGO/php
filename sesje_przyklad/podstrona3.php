@@ -16,8 +16,11 @@ if(isset($_SESSION['login'])){
 
     
     require 'menu.php';
-    
-echo "POD3";
+    echo "<main>";
+
+    echo "PDO3";
+
+    echo "</main>";
 }
 
 else {

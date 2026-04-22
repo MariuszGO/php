@@ -15,8 +15,11 @@ if(isset($_SESSION['login'])){
 
 
     require 'menu.php';
+    echo "<main>";
 
-    echo "POD2";
+    echo "PDO2";
+
+    echo "</main>";
 }
 
 else {

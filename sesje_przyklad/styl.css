@@ -7,16 +7,46 @@ input:hover{
     background-color:lightgreen;
 }
 
+#log{
+    text-align: right;
+}
+
+#lewa{
+    
+    float: left;
+    width: 50%;
+    height: 100px;
+}
+
+#prawa{
+    float: left;
+    width: 50%;
+    height: 100px;
+}
+
+#przyciski{
+      display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+main{
+    width: 100%;
+    float: left;
+}
 
 a{
+    text-align: center;
     background-color: bisque;
     padding: 4px;
     margin: 4px;
-    border: bisque solid 1px;
     text-decoration: none;
     color: black;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 3px 5px 5px  black,  -3px -5px 5px  rgba(185, 74, 74,0.5) ;
+
 }
 
 a:hover{

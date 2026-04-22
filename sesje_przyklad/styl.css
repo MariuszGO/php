@@ -1,0 +1,24 @@
+input{
+    margin: 5px;
+    border-radius: 5px;
+}
+
+input:hover{
+    background-color:lightgreen;
+}
+
+
+a{
+    background-color: bisque;
+    padding: 4px;
+    margin: 4px;
+    border: bisque solid 1px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+a:hover{
+    background-color: floralwhite;
+}

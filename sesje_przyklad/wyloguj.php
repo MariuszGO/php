@@ -13,7 +13,8 @@ session_start();
 
 if(isset($_SESSION['login'])){
 
-    session_destroy();
+    session_destroy(); //niszczy sesję
+    session_unset(); //niszczy zmienne sesyjne
 }
 
 else {

@@ -27,7 +27,6 @@ if(isset($_COOKIE['imie'])){
 </form> 
 <?php
 
-    exit();
 }
 
 ?>
